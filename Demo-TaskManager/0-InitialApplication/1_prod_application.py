@@ -1,3 +1,10 @@
+"""
+Authors: Roslyn and Tom
+Date: 03/11/2025
+
+Python file to create a to do list application.
+
+"""
 def todo(listo: list = None) -> None:
 
     if listo is None:
