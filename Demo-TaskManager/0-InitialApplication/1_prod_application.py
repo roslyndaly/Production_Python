@@ -1,4 +1,4 @@
-listo = []
+listo: list = []
 
 while True:
     print("1. Add Task")
@@ -18,7 +18,7 @@ while True:
         print("-"*50)
     elif x == '3':
         print(listo) #Print list
-        usr_input = input("Enter task number to mark as done: ")
+        usr_input: str = input("Enter task number to mark as done: ")
         if 0 <=  int(usr_input) - 1 < len(listo): 
             listo.pop(int(usr_input) - 1)
             print("Task marked as done.")
