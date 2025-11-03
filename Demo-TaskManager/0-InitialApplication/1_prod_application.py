@@ -10,6 +10,7 @@ while True:
     if x == '1':
         tsk = input("Enter task: ")
         listo.append(tsk)
+        print(f'The task, {tsk}, is added to the list')
         print("-"*50)
     elif x == '2':
         print("Tasks:")
