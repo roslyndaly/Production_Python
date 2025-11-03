@@ -18,11 +18,12 @@ while True:
             print(f"{i+1}. {t}")
         print("-"*50)
     elif x == '3':
-        print(listo) #Print list
+        for i, t in enumerate(listo):
+            print(f"{i+1}. {t}") #Print list
         usr_input: str = input("Enter task number to mark as done: ")
         if 0 <=  int(usr_input) - 1 < len(listo): 
             listo.pop(int(usr_input) - 1)
-            print("Task marked as done.")
+            print(f"{listo[int(usr_input) - 1]} marked as done.")
         else:
             print("Invalid task number.")
     elif x == '4':
