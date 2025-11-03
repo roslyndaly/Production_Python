@@ -9,6 +9,10 @@ Python file to create a to-do list application.
 
 def todo(listo: list = None) -> None:
 
+    """
+    A function to create and manage and todo list
+    """
+
     if listo is None:
         listo: list = []
 
