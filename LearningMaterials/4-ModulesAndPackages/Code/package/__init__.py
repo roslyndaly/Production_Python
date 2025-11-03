@@ -1,0 +1,1 @@
+print("The package's __init__.py has been executed")

@@ -1,0 +1,1 @@
+print("The subpackage's __init__.py has been executed")
