@@ -21,7 +21,7 @@ while True:
         for i, t in enumerate(listo):
             print(f"{i+1}. {t}") #Print list
         usr_input: str = input("Enter task number to mark as done: ")
-        if 0 <=  int(usr_input) - 1 < len(listo): 
+        if 0 <=  int(usr_input) - 1 < len(listo):
             listo.pop(int(usr_input) - 1)
             print(f"{listo[int(usr_input) - 1]} marked as done.")
         else:
