@@ -2,7 +2,6 @@
 python file to perform mathematical operations
 """
 
-
 from src import math_operations as sm
 
 print(sm.add(1, 2))
