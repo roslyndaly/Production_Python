@@ -18,6 +18,7 @@ while True:
             print(f"{i+1}. {t}")
         print("-"*50)
     elif x == '3':
+        print(listo) #Print list
         usr_input = input("Enter task number to mark as done: ")
         if 0 <=  int(usr_input) - 1 < len(listo): 
             listo.pop(int(usr_input) - 1)
