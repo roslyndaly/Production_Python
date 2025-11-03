@@ -6,9 +6,9 @@ while True:
     print("3. Mark Task as Done")
     print("4. Exit")
     print("="*50)
-    x = input("Enter your choice: ")
+    x: str = input("Enter your choice: ")
     if x == '1':
-        tsk = input("Enter task: ")
+        tsk: str = input("Enter task: ")
         listo.append(tsk)
         print(f'The task, {tsk}, is added to the list')
         print("-"*50)
