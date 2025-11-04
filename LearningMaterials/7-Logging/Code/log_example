@@ -1,0 +1,5 @@
+DEBUG - 2025-11-04 14:08:36,090 - This is a debug message - logging_example
+INFO - 2025-11-04 14:08:36,090 - This is a info message - logging_example
+WARNING - 2025-11-04 14:08:36,091 - This is a warning message - logging_example
+ERROR - 2025-11-04 14:08:36,091 - This is a error message - logging_example
+CRITICAL - 2025-11-04 14:08:36,091 - This is a critical message - logging_example
